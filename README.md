@@ -140,7 +140,7 @@ var ndarray = require( '@stdlib/ndarray-base-ctor' );
 var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
 
 var opts = {
-    'dtype': 'float64'
+    'dtype': 'generic'
 };
 
 var xbuf = [ 1.0, -2.0, 2.0 ];
@@ -178,7 +178,6 @@ The function has the following parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var Float64Array = require( '@stdlib/array-float64' );
 var ndarray = require( '@stdlib/ndarray-base-ctor' );
 var scalar2ndarray = require( '@stdlib/ndarray-from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray-to-array' );
